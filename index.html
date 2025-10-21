@@ -1,13 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio - Trần Thanh Vũ</title>
 </head>
+
 <body>
-    <h1>Tran Thanh Vu</h1>
-    
+    <!-- Video Background -->
+    <video autoplay muted loop class="video-background">
+        <source src="gradient.mp4" type="video/mp4">
+    </video>
+
+    <!-- Header -->
+    <header>
+        <a href="#home" class="logo">Tran Thanh Vu</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Trang chủ</a>
+            <a href="#about">Giới thiệu</a>
+            <a href="#skills">Kỹ năng</a>
+            <a href="#projects">Dự án</a>
+            <a href="#contact">Liên hệ</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Xin chào!<br>Thanh Vũ <span>đây.</span></h1>
+                <h3 class="typing-text">Tôi là <span></span></h3>
+                <p>
+                    Hoàn thành tốt hơn hoàn hảo. Tập trung vào việc giải quyết vấn đề bằng những giải pháp tối ưu và bền vững nhất.
+                    <br>"No pain, no gain."
+                </p>
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/thanh-v%C5%A9-tr%E1%BA%A7n-a110b9369/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ThanhVu79" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/vu.tran.99593" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_tt_vu/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                
+                <a href="tetete.pdf" download class="btn">Tải CV</a>
+            </div>
+            
+            <div class="home-img">
+                <img src="img/main.jpg" alt="Ảnh chính">
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <h2 class="heading">Giới <span>thiệu</span></h2>
+
+            <div class="about-grid">
+                <!-- Thông tin cá nhân -->
+                <div class="box">
+                    <h3>Thông tin Cá nhân</h3>
+                    <p><strong>Họ và Tên:</strong> Trần Thanh Vũ</p>
+                    <p><strong>Ngày sinh:</strong> 07/09/2005</p>
+                    <p><strong>Nơi sinh:</strong> TP. Hồ Chí Minh</p>
+                    <p><strong>Email:</strong> vutt7900@ut.edu.vn</p>
+                    <p><strong>Trường:</strong> ĐH Giao thông vận tải TP.HCM</p>
+                    <p><strong>Niên khóa:</strong> 2023 - 2027</p>
+                    <p><strong>Định hướng:</strong> Frontend Developer</p>
+                </div>
+
+                <!-- Sở thích -->
+                <div class="box">
+                    <h3>Sở thích</h3>
+                    <ul>
+                        <li>Tập Gym</li>
+                        <li>Ăn uống</li>
+                        <li>Vẽ Wireframe</li>
+                        <li>Uống Cafe</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Giới thiệu chi tiết -->
+            <div class="box about-desc">
+                <h3>Về bản thân</h3>
+                <p>
+                    Chào mọi người, mình là <strong>Trần Thanh Vũ</strong>, sinh viên năm ba ngành Công nghệ thông tin 
+                    ở Trường Đại học Giao thông vận tải TP.HCM. Mình rất thích thú với việc biến ý tưởng thành sản phẩm thực tế, 
+                    nên mình đầu tư khá nhiều thời gian để xây dựng vững chắc kiến thức về phát triển web, thiết kế UI/UX, 
+                    và cả ứng dụng di động. Với mình, code không chỉ là những dòng lệnh; nó là công cụ tuyệt vời để giải quyết 
+                    các vấn đề một cách sáng tạo. Mình luôn muốn dùng những gì đã học để tạo ra các giải pháp hay, 
+                    mang lại trải nghiệm tốt nhất cho người dùng. Rất mong được làm quen và học hỏi!
+                </p>
+            </div>
+
+            <!-- Ảnh cá nhân -->
+            <div class="about-images">
+                <img src="img/anh1.jpg" alt="Ảnh 1">
+                <img src="img/anh2.jpg" alt="Ảnh 2">
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills" id="skills">
+            <h2 class="heading">Kỹ <span>năng</span></h2>
+
+            <div class="skills-grid">
+                <!-- Ngôn ngữ lập trình -->
+                <div class="box">
+                    <h3>Ngôn ngữ lập trình</h3>
+                    <div class="skill-list">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <span>CSS</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-brands fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 60%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-brands fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Công cụ thiết kế -->
+                <div class="box">
+                    <h3>Công cụ Thiết kế</h3>
+                    <div class="skill-list">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-paintbrush"></i>
+                                <span>Adobe</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-brands fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <i class="fa-solid fa-palette"></i>
+                                <span>Canva</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chứng chỉ -->
+                <div class="box awards">
+                    <h3>Chứng chỉ & Giải thưởng</h3>
+                    <p class="no-data">Không có</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+            <h2 class="heading">Dự <span>án</span></h2>
+
+            <div class="projects-grid">
+                <!-- Dự án 1 -->
+                <div class="box project-box">
+                    <div class="project-img">
+                        <img src="img/project1.png" alt="Portfolio">
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        Đây chính là dự án Portfolio mà mình đang thực hiện! Website được xây dựng bằng HTML5, CSS3 
+                        với các hiệu ứng animation mượt mà. Sử dụng Flexbox và Grid để tạo layout responsive, 
+                        thân thiện với mọi thiết bị.
+                    </p>
+                    <div class="tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive</span>
+                    </div>
+                    <a href="#" class="btn">View Demo</a>
+                </div>
+
+                <!-- Dự án 2 -->
+                <div class="box project-box">
+                    <div class="project-img">
+                        <img src="img/project2.png" alt="Rainny App">
+                    </div>
+                    <h3>Rainny App</h3>
+                    <p>
+                        Ứng dụng blog được thiết kế trên Android Studio. Rainny App cho phép người dùng đọc và 
+                        chia sẻ các bài viết theo phong cách hiện đại, giống như Thread. Giao diện được thiết kế 
+                        tối giản nhưng không kém phần thu hút, tập trung vào trải nghiệm người dùng. 
+                        Ứng dụng có tính năng đăng bài, bình luận, và theo dõi người dùng khác.
+                    </p>
+                    <div class="tags">
+                        <span>Android Studio</span>
+                        <span>Java</span>
+                        <span>UI/UX</span>
+                        <span>Mobile App</span>
+                    </div>
+                    <a href="https://github.com/ThanhVu79/Rainny-App" class="btn">View Demo</a>
+                </div>
+
+                <!-- Dự án 3 -->
+                <div class="box project-box project-center">
+                    <div class="project-img">
+                        <img src="img/project3.png" alt="Smart Traffic Detection">
+                    </div>
+                    <h3>Hệ thống phát hiện giao thông thông minh</h3>
+                    <p>
+                        Hệ thống sử dụng AI và Computer Vision để phát hiện và phân loại phương tiện giao thông 
+                        theo thời gian thực. Ứng dụng công nghệ Deep Learning với model YOLOv8 để nhận diện 
+                        xe cộ, phát hiện tai nạn khi xe va chạm hoặc cháy nổ. Dự án hướng tới giải pháp quản lý 
+                        giao thông đô thị hiệu quả, giảm ùn tắc và nâng cao an toàn.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>OpenCV</span>
+                        <span>YOLO</span>
+                        <span>Deep Learning</span>
+                        <span>Computer Vision</span>
+                    </div>
+                    <a href="https://github.com/LMLTech/Yolov8-accident-detection" class="btn">View Demo</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Liên <span>hệ</span></h2>
+
+            <div class="contact-container">
+                <!-- Form -->
+                <div class="box contact-form-box">
+                    <h3>Gửi tin nhắn</h3>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Họ và tên" required>
+                        <input type="email" placeholder="Email của bạn" required>
+                        <textarea rows="8" placeholder="Nội dung tin nhắn..." required></textarea>
+                        <button type="submit" class="btn">Gửi tin nhắn</button>
+                    </form>
+                </div>
+
+                <!-- Thông tin liên hệ -->
+                <div class="contact-right">
+                    <div class="box contact-info">
+                        <h3>Thông tin liên hệ</h3>
+                        <div class="contact-links">
+                            <a href="https://github.com/ThanhVu79" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.facebook.com/vu.tran.99593" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.instagram.com/_tt_vu/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="mailto:vutt7900@ut.edu.vn">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>Email</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-img">
+                        <img src="img/anh3.jpg" alt="Contact">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Tran Thanh Vu. I'm big boy.</p>
+    </footer>
+
+    <script>
+        // Active navbar khi cuộn trang
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.navbar a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').substring(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
