@@ -62,7 +62,7 @@ header {
     position: fixed;
     width: 100%;
     padding: 1.5rem 9%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.582);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
